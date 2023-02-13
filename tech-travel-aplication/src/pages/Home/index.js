@@ -1,7 +1,13 @@
 import React from 'react';
+import { Title, Subtitle } from './styles';
 
-const Home = () => {
-    return <h1> Home </h1>
+function Home (){
+    return (
+        <>
+        <Title>Home</Title>
+        <Subtitle>Esta es mi casa</Subtitle>
+        </>
+    );
 }
 
 export default Home;
