@@ -5,7 +5,7 @@ import Routing from './routes';
 function App() {
   return(
     <BrowserRouter>
-    <Routing/> 
+    <Routing /> 
     </BrowserRouter>
   );
 }
